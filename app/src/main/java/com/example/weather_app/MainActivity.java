@@ -25,7 +25,7 @@ import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String OW_URL   ="https://api.openweathermap.org/data/2.5/weather?q=%s&appid=5deb1221d17adbfabebaaa1ae45ba036";
+    private static final String OW_URL   ="https://api.openweathermap.org/data/2.5/weather?q=%s&appid=";
     public void check(View view){
 
         EditText cityEditText = (EditText)findViewById(R.id.editText);
